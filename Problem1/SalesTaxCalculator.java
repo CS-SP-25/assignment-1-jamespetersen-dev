@@ -1,6 +1,6 @@
 public class SalesTaxCalculator {
     public static void main(String[] args) {
-        // Initialize Scanner to take 2 lines of input: String stateName . Double saleAmount
+        // Initialize args into variables: String stateName . Double saleAmount
         String stateName = args[0];
         Double saleAmount = Double.parseDouble(args[1]);
 
